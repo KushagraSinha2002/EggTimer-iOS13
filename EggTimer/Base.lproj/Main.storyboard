@@ -54,8 +54,15 @@
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vi7-NZ-qvs"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdn-co-eld">
+                                                        <rect key="frame" x="0.0" y="218.5" width="111.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <constraints>
+                                                    <constraint firstItem="Jdn-co-eld" firstAttribute="leading" secondItem="YXP-iV-bgO" secondAttribute="leading" id="BaD-4E-wqe"/>
                                                     <constraint firstAttribute="trailing" secondItem="88O-7T-MuC" secondAttribute="trailing" id="IRs-ev-NNF"/>
                                                     <constraint firstAttribute="bottom" secondItem="88O-7T-MuC" secondAttribute="bottom" id="N9A-M3-8nA"/>
                                                     <constraint firstAttribute="bottom" secondItem="kNr-Dp-1Dg" secondAttribute="bottom" id="Uej-Ul-jBl"/>
@@ -63,7 +70,9 @@
                                                     <constraint firstItem="88O-7T-MuC" firstAttribute="top" secondItem="YXP-iV-bgO" secondAttribute="top" id="auA-e7-2Sp"/>
                                                     <constraint firstAttribute="trailing" secondItem="kNr-Dp-1Dg" secondAttribute="trailing" id="bKd-bp-Gq3"/>
                                                     <constraint firstItem="kNr-Dp-1Dg" firstAttribute="top" secondItem="YXP-iV-bgO" secondAttribute="top" id="dGJ-Si-qcU"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Jdn-co-eld" secondAttribute="trailing" id="lEz-pW-h6K"/>
                                                     <constraint firstItem="88O-7T-MuC" firstAttribute="leading" secondItem="YXP-iV-bgO" secondAttribute="leading" id="s5h-7J-vFu"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Jdn-co-eld" secondAttribute="bottom" constant="5" id="xaD-9Q-rPA"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLA-so-IIR" userLabel="Medium Egg View">
@@ -80,13 +89,22 @@
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IVd-fV-5ZJ"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tz-wo-EmS">
+                                                        <rect key="frame" x="0.0" y="218.5" width="111" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="3tz-wo-EmS" secondAttribute="bottom" constant="5" id="0oi-y0-ugW"/>
                                                     <constraint firstItem="4F8-7w-xNb" firstAttribute="top" secondItem="WLA-so-IIR" secondAttribute="top" id="1ew-yl-YMM"/>
                                                     <constraint firstItem="Q3H-nl-7AG" firstAttribute="leading" secondItem="WLA-so-IIR" secondAttribute="leading" id="5A0-Gj-Y8d"/>
                                                     <constraint firstAttribute="bottom" secondItem="Q3H-nl-7AG" secondAttribute="bottom" id="FJP-4p-xzj"/>
+                                                    <constraint firstAttribute="trailing" secondItem="3tz-wo-EmS" secondAttribute="trailing" id="K3a-62-cNs"/>
                                                     <constraint firstItem="4F8-7w-xNb" firstAttribute="leading" secondItem="WLA-so-IIR" secondAttribute="leading" id="OeZ-TV-gg5"/>
                                                     <constraint firstAttribute="bottom" secondItem="4F8-7w-xNb" secondAttribute="bottom" id="QWC-vF-ORf"/>
+                                                    <constraint firstItem="3tz-wo-EmS" firstAttribute="leading" secondItem="WLA-so-IIR" secondAttribute="leading" id="hIX-l7-2nF"/>
                                                     <constraint firstItem="Q3H-nl-7AG" firstAttribute="top" secondItem="WLA-so-IIR" secondAttribute="top" id="iow-hr-cZO"/>
                                                     <constraint firstAttribute="trailing" secondItem="Q3H-nl-7AG" secondAttribute="trailing" id="m09-5R-qTO"/>
                                                     <constraint firstAttribute="trailing" secondItem="4F8-7w-xNb" secondAttribute="trailing" id="oZm-FC-25l"/>
@@ -106,13 +124,22 @@
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2hK-u8-Wl8"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc0-aE-boS">
+                                                        <rect key="frame" x="0.0" y="218.5" width="111.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="NEu-V5-iHi" firstAttribute="leading" secondItem="SGU-B2-GCH" secondAttribute="leading" id="0lb-vV-Kxn"/>
                                                     <constraint firstItem="60f-lw-4Iu" firstAttribute="leading" secondItem="SGU-B2-GCH" secondAttribute="leading" id="1ou-vw-cE0"/>
+                                                    <constraint firstItem="qc0-aE-boS" firstAttribute="leading" secondItem="SGU-B2-GCH" secondAttribute="leading" id="3LL-2o-Y4p"/>
                                                     <constraint firstItem="NEu-V5-iHi" firstAttribute="top" secondItem="SGU-B2-GCH" secondAttribute="top" id="5q8-G2-AhV"/>
                                                     <constraint firstAttribute="trailing" secondItem="60f-lw-4Iu" secondAttribute="trailing" id="CGA-j4-lqY"/>
                                                     <constraint firstAttribute="bottom" secondItem="NEu-V5-iHi" secondAttribute="bottom" id="Dy7-Wh-nWb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qc0-aE-boS" secondAttribute="trailing" id="HEJ-3B-hGB"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qc0-aE-boS" secondAttribute="bottom" constant="5" id="dl9-Jt-6nf"/>
                                                     <constraint firstAttribute="bottom" secondItem="60f-lw-4Iu" secondAttribute="bottom" id="gNd-4G-NV1"/>
                                                     <constraint firstItem="60f-lw-4Iu" firstAttribute="top" secondItem="SGU-B2-GCH" secondAttribute="top" id="kDf-aZ-4ZZ"/>
                                                     <constraint firstAttribute="trailing" secondItem="NEu-V5-iHi" secondAttribute="trailing" id="xcW-Uv-gNH"/>
@@ -137,13 +164,23 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Left : 0 Min 0 Sec" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxZ-kq-KyY">
+                                                <rect key="frame" x="60" y="165" width="258" height="29"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="MxZ-kq-KyY" secondAttribute="bottom" constant="52.5" id="1O0-tj-uR5"/>
+                                            <constraint firstAttribute="trailing" secondItem="MxZ-kq-KyY" secondAttribute="trailing" constant="56" id="76O-aw-5DS"/>
                                             <constraint firstItem="Bi8-9V-Nhc" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="bWa-lG-Rga"/>
+                                            <constraint firstItem="MxZ-kq-KyY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nJN-th-c5K" secondAttribute="leading" symbolic="YES" id="c1p-GK-gmF"/>
                                             <constraint firstAttribute="trailing" secondItem="Bi8-9V-Nhc" secondAttribute="trailing" id="ceb-ng-euV"/>
                                             <constraint firstAttribute="trailing" secondItem="laI-QF-jRj" secondAttribute="trailing" id="ejh-fN-qsH"/>
                                             <constraint firstItem="laI-QF-jRj" firstAttribute="centerY" secondItem="nJN-th-c5K" secondAttribute="centerY" id="el4-GW-RzG"/>
                                             <constraint firstItem="laI-QF-jRj" firstAttribute="top" secondItem="Bi8-9V-Nhc" secondAttribute="bottom" constant="24.5" id="gZe-NF-rWn"/>
+                                            <constraint firstItem="MxZ-kq-KyY" firstAttribute="top" secondItem="laI-QF-jRj" secondAttribute="bottom" constant="39.5" id="oea-VX-uLn"/>
                                             <constraint firstItem="laI-QF-jRj" firstAttribute="leading" secondItem="nJN-th-c5K" secondAttribute="leading" id="sPv-iw-mti"/>
                                         </constraints>
                                     </view>
@@ -163,6 +200,7 @@
                         <outlet property="Status" destination="XLm-5r-pSP" id="8CQ-Or-B9Z"/>
                         <outlet property="progressBar" destination="laI-QF-jRj" id="xru-hk-sQC"/>
                         <outlet property="progressPercentage" destination="Bi8-9V-Nhc" id="Efc-lO-Cat"/>
+                        <outlet property="timeLeft" destination="MxZ-kq-KyY" id="eEh-8o-9zt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
